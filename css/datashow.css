@@ -1,0 +1,69 @@
+﻿/*Defined by TQ, 2016/8/22*/
+/*定义展示datashow边框、调整大致风格*/
+body {
+}
+
+.DataShowHeader {
+    text-align: center;
+}
+
+.DataShowBlock {
+    margin-left: 1%;
+    margin-bottom: 5px;
+    border: 1px solid #0e2735;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+
+.Redefine-col-md-4, .Redefine-col-md-6, .Redefine-col-md-5, .Redefine-col-md-9 {
+    position: relative;
+    min-height: 1px;
+}
+
+.Redefine-col-md-4 {
+    width: 32.33333333%;
+    float: left;
+}
+
+.DataShowBlock > div > span {
+    font-size: 34px;
+}
+
+.DataShowBlock > div:first-child {
+    padding: 3px;
+    font-size: 16px;
+    border-bottom: 1px solid;
+}
+
+.DataShowHeader > .DataShowBlock > div > div {
+    padding: 8px 0;
+}
+
+    .DataShowHeader > .DataShowBlock > div > div:first-child {
+        border-bottom: 1px solid;
+    }
+
+
+@media (min-width: 992px) {
+    .Redefine-col-md-3 {
+        width: 25%;
+        float: left;
+    }
+
+    .Redefine-col-md-9 {
+        width: 75%;
+        float: left;
+    }
+
+    .Redefine-col-md-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .DataShowBlock > div:first-child {
+        vertical-align: middle;
+        font-size: 16px;
+        border-right: 1px solid;
+    }
+}

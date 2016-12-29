@@ -1,0 +1,9 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/master/Style.master" AutoEventWireup="true" CodeFile="ManageStyle.master.cs" Inherits="ManageStyle" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder runat="server" ID="Content1_head"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="nctelrecord" Runat="Server">
+    <asp:ContentPlaceHolder runat="server" ID="nctelrecord_body"></asp:ContentPlaceHolder>
+</asp:Content>
+
